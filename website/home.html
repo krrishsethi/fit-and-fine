@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(img/th.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* use google font family*/
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .left {
+            display: inline-block;
+             /* border: 2px solid black;  */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 133px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 26px;
+            color: aliceblue;
+        }
+
+        .mid {
+            display: block;
+            width: 52%;
+            margin: 22px auto;
+             /* border: 2px solid blue;  */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* / border: 2px yellow solid; / */
+        }
+
+        .nav {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .nav a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .nav a:hover,
+        .nav a.active {
+            color: rgb(218, 18, 68);
+            text-decoration: underline;
+
+        }
+
+        .button {
+            margin: 0px 9px;
+            color: aliceblue;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color:cyan;
+        }
+
+        .container {
+            border: 2px solid green;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .form input{
+            text-align: center;
+            display: block;
+            width: 408px;
+            padding: 1px;
+            margin: 11px auto;
+            border: 2px solid black;
+            font-size: 25px;
+            border-radius: 10px;
+        }
+        .container h1{
+           text-align: center; 
+        }
+        .container button{
+            display: block;
+            width:98%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">
+
+            <!-- <img src="img/flower.png"> -->
+            <div>FIT N <span style="color: blue;">FINE</span></div>
+
+        </div>
+        <div class="mid">
+            <div class="nav">
+                <a href="#" class="active">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="right">
+            <button class="button">call us now</button>
+            <button class="button">Email us</button>
+        </div>
+    </div>
+    <div class="container">
+<h1> join the best gym</h1>
+<form>
+    <div class="form">
+        <input type="text" name="name" placeholder="Enter Your Name">
+    </div>
+    <div class="form">
+        <input type="text" name="name" placeholder="Enter Your Age">
+    </div>
+    <div class="form">
+        <input type="text" name="name" placeholder="Enter Your Email">
+    </div>
+    <div class="form">
+        <input type="text" name="name" placeholder="Enter Your Contact">
+    </div>
+    <button class="btn">Submit</button>
+</form>
+    </div>
+</body>
+
+</html>

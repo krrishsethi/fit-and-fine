@@ -1,0 +1,188 @@
+.container {
+    color: red;
+    padding: 15px;
+    margin-top: 9px;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+
+.class {
+    color: rgb(18, 19, 20);
+    font-size: 27px;
+    
+    padding: 10px;
+    text-decoration: dotted;
+    display: block;
+    margin: 40px 35px;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    width: 1240px;
+    /* flex: 2; */
+}
+.cont1{
+    display: flex;
+    
+
+}
+.cont2{
+    display: flex;
+    
+    
+}
+
+/* .webcam {
+    height: 10px;
+    width: 20px;
+    padding: 20px;
+} */
+#ravneet_sir{
+    /* border: 3px solid blue; */
+    flex: 2;
+    font-size: 20px;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   background-position: center;
+   padding: 100px;
+}
+#busy_life{
+    /* border: 3px solid blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 2;
+    color:white;
+    font-size: 15px;
+    background-position: center;
+    padding: 100px;
+    font-size: 20px;
+}
+#oneplus {
+    margin-top: 300px;
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#card {
+background-color: rgb(35, 35, 35);
+    height: 1000px;
+    
+
+}
+
+#exploretheworld {
+    background-color: white;
+    height: 270px;
+    float: left;
+    width: 40%;
+    border: 3px solid black;
+    margin: 40px;
+    padding: 13px;
+    margin: 50px;
+    padding: 20px;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#exploretheworld:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#exploreamritsar {
+
+    background-color: white;
+    margin: 50px;
+    padding: 13px;
+    height: 270px;
+    float: left;
+    padding: 20px;
+    width: 40%;
+    border: 3px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#exploreamritsar:hover {
+
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#homeicon {
+    font-size: 50px;
+    padding: 30px;
+    color: yellowgreen;
+    border: 2px solid rgb(21, 20, 20);
+    border-radius: 100px;
+
+
+}
+
+#card_footer {
+    height: 300px;
+  flex: 2;
+    /* border: 6px solid red; */
+    clear: left;
+    display: flex;
+}
+#ravneet_sir{
+    /* border: 3px solid blue; */
+    flex: 2;
+    font-size: 20px;
+    color: rgb(11, 9, 9);
+   font-family: Arial, Helvetica, sans-serif;
+   background-position: center;
+   padding: 100px;
+}
+#busy_life{
+    /* border: 3px solid blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 2;
+    color:rgb(23, 20, 20);
+    font-size: 15px;
+    background-position: center;
+    padding: 100px;
+    font-size: 20px;
+}
+#salt{
+    /* border: 3px solid blue; */
+    flex: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(10, 9, 9);
+    font-size: 15px;
+    background-position: center;
+    padding: 100px;
+    font-size: 20px;
+}
+#boring-life{
+    /* border: 3px solid blue; */
+    flex: 2;
+    background-position: center;
+    
+}
+#focous_on_your_dreams{
+    /* border: 3px solid blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    background-image: url(axiom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    
+}
+
+#myImg
+{
+    height: 300px;
+}
+
+
+
+
+

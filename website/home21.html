@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7eea16e092.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #bd {
+            background-image: url(img/gym1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: aliceblue;
+            height: 700px;
+            position: relative;
+            top: 0px;
+
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            position: relative;
+            top: 24px;
+        }
+
+        .link a {
+            margin-inline: 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        .nav h1 {
+            font-size: 40px;
+            margin-top: 10px;
+        }
+
+        .link button {
+            width: 130px;
+            height: 40px;
+            background-color: grey;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-left: 16px;
+            padding: 10px;
+        }
+
+        .link button:hover {
+            background-color: rgb(87, 80, 80)y;
+            border: 2px solid white;
+
+        }
+
+        a:hover {
+            color: rgb(87, 57, 197);
+        }
+
+        .container {
+            margin-top: 120px;
+            margin-left: 8%;
+        }
+
+        .container h1 {
+            font-size: 70PX;
+        }
+
+        .container p {
+            margin-top: 20px;
+            font-size: 22PX;
+        }
+
+        .container button {
+            width: 100px;
+            height: 35px;
+            background-color: grey;
+            color: aliceblue;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .container button:hover {
+            background-color: rgb(87, 80, 80);
+            border: 2px solid white;
+        }
+
+        #chrome {
+            margin: 5px;
+            float: left;
+            width: 40%;
+        }
+
+        #sunny {
+            float: right;
+            width: 40%;
+            font-size: 20px;
+        }
+
+        #video_se {
+            width: 100%;
+            height: 90%;
+            padding: 70px;
+        }
+
+        #copy {
+            margin: 10px;
+            text-align: center;
+            color: grey;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #oneplus {
+            margin-top: 300px;
+            color: yellow;
+            text-align: center;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #card {
+        background-color: rgb(35, 35, 35);
+            height: 1000px;
+            
+
+        }
+
+        #exploretheworld {
+            background-color: white;
+            height: 270px;
+            float: left;
+            width: 40%;
+            border: 3px solid black;
+            margin: 40px;
+            padding: 13px;
+            margin: 50px;
+            padding: 20px;
+
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        #exploretheworld:hover {
+            transform: scale(1.2);
+            transition: all 1s;
+        }
+
+        #exploreamritsar {
+
+            background-color: white;
+            margin: 50px;
+            padding: 13px;
+            height: 270px;
+            float: left;
+            padding: 20px;
+            width: 40%;
+            border: 3px solid black;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        #exploreamritsar:hover {
+
+            transform: scale(1.2);
+            transition: all 1s;
+        }
+
+        #homeicon {
+            font-size: 50px;
+            padding: 30px;
+            color: yellowgreen;
+            border: 2px solid rgb(21, 20, 20);
+            border-radius: 100px;
+
+
+        }
+
+        #card_footer {
+            height: 300px;
+          flex: 2;
+            /* border: 6px solid red; */
+            clear: left;
+            display: flex;
+        }
+        #ravneet_sir{
+            /* border: 3px solid blue; */
+            flex: 2;
+            font-size: 20px;
+            color: white;
+           font-family: Arial, Helvetica, sans-serif;
+           background-position: center;
+           padding: 100px;
+        }
+        #busy_life{
+            /* border: 3px solid blue; */
+            font-family: Arial, Helvetica, sans-serif;
+            flex: 2;
+            color:white;
+            font-size: 15px;
+            background-position: center;
+            padding: 100px;
+            font-size: 20px;
+        }
+        #salt{
+            /* border: 3px solid blue; */
+            flex: 2;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  white;
+            font-size: 15px;
+            background-position: center;
+            padding: 100px;
+            font-size: 20px;
+        }
+        #boring-life{
+            /* border: 3px solid blue; */
+            flex: 2;
+            background-position: center;
+            
+        }
+        #focous_on_your_dreams{
+            /* border: 3px solid blue; */
+            font-family: Arial, Helvetica, sans-serif;
+            flex: 1;
+            background-image: url(axiom.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 100px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bd">
+        <div class="nav">
+            <h1>FIT N <span style="color: blue;">FINE</span></h1>
+            <div class="link">
+                <a href="home21.html">Home</a>
+                <a href="classes.html">Classes</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="service.html">Service</a>
+                <a href="faq.html"><button>Learn more</button></a>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Impulse Fitness</h1>
+            <p>"Success in the is all about wind of the mind"</p>
+            <button>Join Now</button>
+        </div>
+
+
+    </div>
+
+    <h1 id="copy">Our Legacy</h1>
+    <div id="video_se">
+        <div id="chrome">
+            <video width="520" height="310" controls>
+                <source src="img/057890295-young-athletic-men-and-women-e.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+        <div>
+            <p id="sunny">
+                impluse Gym is a globally renowned fitness brand that has made its mark in India. With a strong
+                legacy dating back to 1965 in Venice Beach, California, Gold's Gym has become synonymous with
+                fitness excellence and innovation. Gold’s Gym India carries the legacy ahead in the home country
+                since its inception in 2002. World-class fitness facilities and a comprehensive range of workout
+                programs tailored to meet the needs of diverse fitness enthusiasts is what sets us apart from
+                others.
+
+                impluse Gym India, a part of this esteemed legacy, has expanded its presence across
+            </p>
+        </div>
+    </div>
+
+    <div id="card">
+
+        <div id="oneplus">
+            <h2>Our Business Verticals</h2>
+            <h5>Gold's Gym India business comprises of 2 verticals- Gold's Gym & GGFI</h5>
+        </div>
+        <div id="exploretheworld">
+            <div>
+                <i id="homeicon" class="fa-solid fa-pen-nib"></i>
+            </div>
+            <h2>Gym</h2>
+            <h5 style="line-height: 20px;">We are one of the largest gym chains in India with 150+ active clubs & have
+                been in India since 2002</h5>
+        </div>
+        <div id="exploreamritsar">
+            <div>
+                <i id="homeicon" class="fa-solid fa-pen-nib"></i>
+            </div>
+            <h2> GGFI</h2>
+            <h5 style="line-height: 20px;">opened its doors for all the fitness enthusiasts in 2006 has successfully
+                produced thousands of personal trainers and health coaches.</h5>
+        </div>
+        
+        <div id="card_footer">
+            <div id="focous_on_your_dreams">
+
+            </div>
+            <div id="salt">
+                <h4>Quick links</h4>
+            <h5>about</h5>
+            <h5>FAQ</h5>
+            <h5>PRIVACY&POLICY</h5>
+            <h5>REFUND AND CANCELLATION</h5>
+            </div>
+            <div id="ravneet_sir">
+                <h4>contact</h4>
+                <h5>h0-47,vrindavan gardens</h5>
+                <h5>87879765</h5>
+                <h5>email-gym@gmail.com</h5>
+                
+            </div>
+            <div id="busy_life">
+                <h4>explore</h4>
+                <h5>studios</h5>
+                <h5>nutrition</h5>
+                <h5> personal trainer</h5>
+            </div>
+            <div id="boring_life">
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+
+</html>

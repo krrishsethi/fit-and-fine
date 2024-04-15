@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(img/Impulse-Fitness.jpg);
+background-size: 1200px 900px;
+background-repeat: no-repeat;
+background-color: khaki;
+
+}
+.dell{
+color: chocolate;
+padding: 18px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+word-spacing: 150px;
+font-size: 30px;
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}

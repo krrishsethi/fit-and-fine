@@ -1,0 +1,220 @@
+body{
+    background-color: black;
+}
+
+
+.container{
+    width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+
+.header {
+    color:white;
+    font-size: 30px;
+    /* background-color: khaki; */
+}
+
+.Strength {
+    padding: 17px;
+    background-color: cyan;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.Strength:hover {
+    color: darkseagreen;
+    background-color: cornflowerblue;
+    border-color: cadetblue;
+
+}
+
+.header h2 {
+    text-align: center;
+}
+.grid{
+margin-top: 100px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 40px;
+
+}
+.Strength{
+    padding: 25px;
+    background-color: darkseagreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Strength:hover{
+    background-color: black;
+    border-color: darkcyan;
+
+}
+.Strength span{
+    display: inline-block;
+    padding: 2px 9px;
+    margin: 25px;
+    font-size: 30px;
+    color: azure;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.Strength h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: beige;
+    font-weight: 600;
+}
+.Strength p{
+    margin-bottom: 25px;
+    color: aliceblue;
+}
+.Strength a{
+    color: aliceblue;
+    transition: 0.3s;
+}
+.Strength a:hover{
+    color: crimson;
+
+}
+#busy_life{
+    /* border: 3px solid blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 2;
+    color:white;
+    font-size: 15px;
+    background-position: center;
+    padding: 100px;
+    font-size: 20px;
+}
+#oneplus {
+    margin-top: 300px;
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#card {
+background-color: rgb(35, 35, 35);
+    height: 1000px;
+    
+
+}
+
+#exploretheworld {
+    background-color: white;
+    height: 270px;
+    float: left;
+    width: 40%;
+    border: 3px solid black;
+    margin: 40px;
+    padding: 13px;
+    margin: 50px;
+    padding: 20px;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#exploretheworld:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#exploreamritsar {
+
+    background-color: white;
+    margin: 50px;
+    padding: 13px;
+    height: 270px;
+    float: left;
+    padding: 20px;
+    width: 40%;
+    border: 3px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#exploreamritsar:hover {
+
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#homeicon {
+    font-size: 50px;
+    padding: 30px;
+    color: yellowgreen;
+    border: 2px solid rgb(21, 20, 20);
+    border-radius: 100px;
+
+
+}
+
+#card_footer {
+    height: 300px;
+  flex: 2;
+    /* border: 6px solid red; */
+    clear: left;
+    display: flex;
+}
+#ravneet_sir{
+    /* border: 3px solid blue; */
+    flex: 2;
+    font-size: 20px;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   background-position: center;
+   padding: 100px;
+}
+#busy_life{
+    /* border: 3px solid blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 2;
+    color:white;
+    font-size: 15px;
+    background-position: center;
+    padding: 100px;
+    font-size: 20px;
+}
+#salt{
+    /* border: 3px solid blue; */
+    flex: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  white;
+    font-size: 15px;
+    background-position: center;
+    padding: 100px;
+    font-size: 20px;
+}
+#boring-life{
+    /* border: 3px solid blue; */
+    flex: 2;
+    background-position: center;
+    
+}
+#focous_on_your_dreams{
+    /* border: 3px solid blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    background-image: url(axiom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    
+}
+
+
+
+
+
+
